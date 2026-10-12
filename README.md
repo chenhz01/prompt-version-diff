@@ -4,6 +4,8 @@ A structured diff for two versions of a prompt. Sections are classified as instr
 
 **Status:** v0.1.1 · Confidence: high (structural diff), medium (keyword classification) · as of 2026-10-11
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 `git diff` on a prompt file tells you *characters* changed, not *what kind* of thing changed. Reordering one example and deleting a hard constraint look identical there. Reviewers need a graded, structured view: which sections changed, how risky is each change, and did the variable surface shift.
